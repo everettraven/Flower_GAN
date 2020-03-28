@@ -1,6 +1,0 @@
-tensorflow
-tensorflow-datasets
-numpy
-opencv-python
-matplotlib
-jupyterlab
