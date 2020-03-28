@@ -4,4 +4,6 @@ services:
         container_name: flower_gan
         ports:
             - 8888:8888
-        build: .
+        build:
+            context: ../
+            dockerfile: ./CPU/Dockerfile

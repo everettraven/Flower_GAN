@@ -1,6 +1,6 @@
 FROM tensorflow/tensorflow:latest-py3-jupyter
 
-COPY ../Container_Files ./Files
+COPY ./Container_Files ./Files
 
 RUN apt-get update
 
